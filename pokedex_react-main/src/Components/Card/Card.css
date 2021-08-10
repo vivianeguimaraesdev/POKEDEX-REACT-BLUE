@@ -1,0 +1,122 @@
+.card {
+  background-color: #ffffff;
+  width: 14rem;
+  height: 20rem;
+  color: #000000;
+  font-size: 1.1em;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  transition: 0.5s;
+}
+
+.card:hover {
+  cursor: pointer;
+  margin-top: -0.1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-id {
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  color: #838080;
+}
+
+.category {
+  /* border-radius: 0.4rem; */
+  padding: 0.1rem 0.4rem;
+  margin: 0 0.2rem 0 0;
+}
+
+.category--grass {
+  background-color: green;
+  color: white;
+}
+
+.category--poison {
+  background-color: rgb(87, 0, 128);
+  color: white;
+}
+
+.category--fire {
+  background-color: rgb(212, 14, 14);
+  color: white;
+}
+
+.category--water {
+  background-color: rgb(14, 100, 212);
+  color: white;
+}
+
+.category--bug {
+  background-color: rgb(176, 212, 14);
+  color: black;
+}
+
+.category--normal {
+  background-color: rgb(148, 148, 148);
+  color: white;
+}
+
+.category--flying {
+  background-color: rgb(105, 227, 243);
+  color: black;
+}
+
+.category--ground {
+  background-color: rgb(119, 70, 15);
+  color: white;
+}
+
+.category--electric {
+  background-color: rgb(255, 230, 1);
+  color: black;
+}
+
+.category--fairy {
+  background-color: rgb(223, 149, 210);
+  color: white;
+}
+
+.category--psychic {
+  background-color: rgb(117, 58, 255);
+  color: white;
+}
+
+.category--fighting {
+  background-color: rgb(46, 46, 46);
+  color: white;
+}
+
+.category--ghost {
+  background-color: rgb(226, 226, 226);
+  color: black;
+}
+
+.category--rock {
+  background-color: black;
+  color: white;
+}
+
+.category--ice {
+  background: linear-gradient(
+    to right,
+    rgb(166, 227, 255),
+    rgb(102, 165, 194)
+  );
+  color: white;
+}
+
+.category--dragon {
+  background: linear-gradient(
+    to right,
+    rgb(253, 151, 17),
+    rgb(235, 84, 64)
+  );
+  color: white;
+}
